@@ -18,8 +18,8 @@ function HomepageHeader() {
                 </Heading>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
                 <div className={styles.buttons}>
-                    <Link className="button button--secondary button--lg" to="/docs/teacher/intro">
-                        Teacher Tutorial - 5min ⏱️
+                    <Link className="button button--secondary button--lg" to="https://renlearn.app">
+                        Join Renaissance
                     </Link>
                 </div>
             </div>
