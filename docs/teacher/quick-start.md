@@ -35,4 +35,10 @@ Now that you have a class with students, you can create an assignment.
 4.  Set a due date for the assignment.
 5.  Click "Create".
 
-You are now ready to start marking assignments and providing feedback to your students!
+## 4. Upload Submissions
+
+1.  After creating an assignment, click into it to see the assignment dashboard.
+2.  Upload the submission file for a student by clicking on the upload icon beside their name.
+3.  Once uploaded, the status for that student will change from "Pending Submission" to "Pending Marking".
+
+You are now ready to start marking!
