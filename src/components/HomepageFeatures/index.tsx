@@ -51,16 +51,47 @@ function Feature({ title, Svg, description }: FeatureItem) {
     );
 }
 
-export default function HomepageFeatures(): ReactNode {
+function BackedBy() {
     return (
-        <section className={styles.features}>
+        <section className={styles.backedBy}>
             <div className="container">
-                <div className="row">
-                    {FeatureList.map((props, idx) => (
-                        <Feature key={idx} {...props} />
-                    ))}
+                <div className="text--center">
+                    <Heading as="h3">Backed by</Heading>
+                    <div className={styles.backedByImages}>
+                        <img
+                            src={require("@site/static/img/block71.png").default}
+                            alt="Block71"
+                            width={200}
+                            height={200}
+                            className={styles.backedByImage}
+                        />
+                        <img
+                            src={require("@site/static/img/nus-computing.png").default}
+                            alt="NUS Computing"
+                            width={200}
+                            height={200}
+                            className={styles.backedByImage}
+                        />
+                    </div>
                 </div>
             </div>
         </section>
+    );
+}
+
+export default function HomepageFeatures(): ReactNode {
+    return (
+        <>
+            <section className={styles.features}>
+                <div className="container">
+                    <div className="row">
+                        {FeatureList.map((props, idx) => (
+                            <Feature key={idx} {...props} />
+                        ))}
+                    </div>
+                </div>
+            </section>
+            <BackedBy />
+        </>
     );
 }
