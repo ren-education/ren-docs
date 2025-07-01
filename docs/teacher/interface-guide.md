@@ -35,10 +35,14 @@ The sidebar is your command center, dynamically updating based on your current c
 - Direct access to any class
 - Quick class creation
 
-**Create Content**: Lesson planning and content development
+**Create Content**: Enhanced lesson planning and content development
 - Rich text editor for lesson plans
 - Integration with your resource library
-- AI-assisted content creation
+- **AI-assisted content creation** with intelligent suggestions
+- **Minimizable chat interface** for AI copilot assistance
+- **Standardized chat UI** consistent with marking page experience
+- **Autosuggest features** for content recommendations
+- **AI suggestions toggle** to show/hide AI recommendations as needed
 
 **Resources**: Your document library
 - File upload and organization
@@ -411,5 +415,50 @@ Mike Johnson    | 65%       | ↘️    | 1 week ago    | 6/10
 - **Slow interface**: Close unnecessary browser tabs
 - **Memory issues**: Regularly clear browser cache
 - **Upload problems**: Check file size limits and format requirements
+
+## Create Content Interface
+
+### Enhanced Content Creation Features
+
+The Create Content page has been significantly enhanced with AI-powered features and improved user experience:
+
+**AI Chat Integration**:
+- **Minimizable chat interface** that adapts to your workflow
+- **Standardized UI** consistent with the marking page experience
+- **Real-time AI assistance** for content creation and lesson planning
+- **Context-aware suggestions** based on your teaching materials
+
+**Smart Content Features**:
+- **Autosuggest functionality** for content recommendations
+- **AI suggestions toggle** - easily show or hide AI recommendations
+- **Intelligent content generation** based on your curriculum and resources
+- **Dynamic content optimization** tailored to your teaching style
+
+**Interface Improvements**:
+- **Streamlined layout** for better focus on content creation
+- **Responsive design** that works across all devices
+- **Integrated resource access** without leaving the content creation flow
+- **Quick save and auto-save** to prevent content loss
+
+### Using the Create Content Chat Copilot
+
+**Opening the Chat Interface**:
+1. Click the chat icon in the Create Content interface
+2. The chat panel opens with a minimizable design
+3. Continue working on your content while getting AI assistance
+4. Chat interface automatically adjusts to your screen size
+
+**AI Assistance Features**:
+- **Lesson plan generation** based on your specifications
+- **Content structure suggestions** for better organization
+- **Resource recommendations** from your library
+- **Curriculum alignment** checks and suggestions
+- **Differentiation ideas** for diverse learners
+
+**Workflow Integration**:
+- **Seamless switching** between content creation and AI assistance
+- **Context preservation** - AI remembers your current work
+- **Multi-turn conversations** for iterative content development
+- **Quick implementation** of AI suggestions into your content
 
 The Ren interface is designed to grow with you, becoming more intuitive and efficient as you become familiar with its features and workflows.

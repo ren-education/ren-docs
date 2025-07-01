@@ -56,24 +56,38 @@ AI: "Based on your class's recent performance, I'll create a lesson plan focusin
 
 ## AI-Powered Grading Assistance
 
+### Marking Page Copilot
+
+**Dedicated Marking Assistant**: The marking page features a specialized AI copilot that provides:
+- **Real-time Streaming**: Get instant, streaming responses as you work
+- **Snippet-Aware Analysis**: AI understands the specific parts of submissions you've highlighted
+- **Visual Context**: Snippet previews are rendered in chat for better visual reference
+- **Minimizable Interface**: Chat interface adapts to your workflow, minimizing when not needed
+- **Dynamic Sidebar**: Sidebar automatically adjusts when chat is opened
+
 ### Intelligent Grading Suggestions
 
-**Automatic Analysis**: When you open a submission for grading, the AI provides:
+**Contextual Analysis**: When you open a submission for grading, the AI provides:
+- **Whole Submission Context**: AI analyzes the entire submission for comprehensive understanding
 - **Grade Recommendations**: Suggested grades based on content analysis
 - **Quality Assessment**: Writing quality, content understanding, and skill demonstration
 - **Comparative Analysis**: Performance relative to class average and student's previous work
 - **Improvement Areas**: Specific areas needing development
 - **Strength Recognition**: Exceptional aspects worth highlighting
+- **Teacher Memory Integration**: AI uses your previous marking patterns and preferences
 
 ### Smart Feedback Generation
 
 **AI-Generated Comments**:
 The AI can draft feedback based on:
-- Common patterns it identifies in the work
-- Your previous feedback style and preferences
-- Specific rubric criteria and learning objectives
-- Comparison with exemplary work
-- Student's individual learning needs
+- **Snippet-Specific Analysis**: Focused feedback on highlighted portions
+- **Streaming Generation**: Real-time feedback generation as you work
+- **Common patterns** it identifies in the work
+- **Your previous feedback style** and preferences
+- **Specific rubric criteria** and learning objectives
+- **Comparison with exemplary work**
+- **Student's individual learning needs**
+- **Cross-submission patterns** from your teaching history
 
 **Feedback Enhancement**:
 - **Tone Adjustment**: Ensure appropriate and encouraging tone
@@ -82,7 +96,7 @@ The AI can draft feedback based on:
 - **Personalization**: Tailor feedback to individual student needs
 - **Consistency Checking**: Maintain consistent standards across submissions
 
-### Pattern Recognition
+### Enhanced Pattern Recognition
 
 **Cross-Assignment Analysis**:
 The AI identifies patterns across multiple assignments:
@@ -91,6 +105,8 @@ The AI identifies patterns across multiple assignments:
 - **Improvement Trends**: Areas where students are developing
 - **Class-Wide Patterns**: Common challenges affecting multiple students
 - **Individual Trajectories**: Personal growth patterns for each student
+- **OCR-Enhanced Analysis**: Better text extraction and positioning for PDF submissions
+- **Multi-page Context**: Analysis across all pages of multi-page submissions
 
 ## Content Creation and Lesson Planning
 
@@ -199,13 +215,16 @@ The AI identifies areas for professional growth:
 
 ### How the AI Learns from You
 
-**Pattern Recognition**:
+**Enhanced Pattern Recognition**:
 The AI continuously learns from:
 - **Grading Patterns**: Your assessment preferences and standards
 - **Feedback Style**: How you communicate with students
 - **Resource Usage**: Which materials you find most effective
 - **Teaching Approaches**: Strategies that work best for your students
 - **Success Indicators**: What you value most in student work
+- **Snippet Preferences**: Which parts of submissions you typically highlight
+- **Chat Interactions**: Your marking workflow and question patterns
+- **Teacher-Specific Context**: Personalized understanding of your teaching style
 
 **Adaptive Recommendations**:
 Over time, the AI becomes more personalized:

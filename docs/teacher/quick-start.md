@@ -79,16 +79,28 @@ Students can submit directly through their unique portal link:
 
 ## Step 5: Your First Grading Session
 
-Once submissions are processed, you can begin grading:
+Once submissions are processed, you can begin grading with enhanced AI-powered features:
 
 1. **Access Submission**: Click on a student's name in the assignment
-2. **Review the PDF**: The submission loads in an interactive PDF viewer
-3. **Create Snippets**: Click and drag to highlight important sections
-4. **Add Feedback**:
+2. **Review the PDF**: The submission loads in an interactive PDF viewer with resizable columns
+3. **Toggle AI Overlay**: Use the AI overlay toggle to show/hide AI assistance on the submission
+4. **Create Snippets**: Click and drag to highlight important sections
+5. **Use AI Copilot**: 
+    - Click the chat icon to open the marking copilot
+    - Add snippets to chat for AI analysis and feedback suggestions
+    - Get real-time streaming responses for grading assistance
+6. **Add Feedback**:
     - Tag snippets with categories (e.g., "grammar-error", "good-analysis")
-    - Add detailed comments
-5. **Assign Grade**: Enter the numerical grade
-6. **Save**: Click "Save" to finalize
+    - Add detailed comments, enhanced by AI suggestions
+    - Remove snippets with the X button if needed
+7. **Assign Grade**: Enter the numerical grade (with AI recommendations if desired)
+8. **Save**: Click "Save" to finalize
+
+### New Marking Interface Features
+- **Resizable columns** for optimal viewing
+- **Minimizable chat interface** that adapts to your workflow
+- **Dynamic sidebar** that adjusts when chat is opened
+- **Snippet preview rendering** in AI chat for visual context
 
 ## Understanding Your Workflow
 
@@ -111,19 +123,33 @@ Your sidebar dynamically updates based on your classes:
 
 ### Key Features You'll Use Daily
 
--   **PDF Processing**: Automatic text extraction and analysis
--   **Snippet Creation**: Highlight and reuse important content
--   **AI Assistance**: Get grading suggestions and insights
--   **Progress Tracking**: Monitor class and individual performance
+-   **Enhanced PDF Processing**: Automatic text extraction, OCR, and page-by-page analysis
+-   **Smart Snippet Creation**: Highlight and reuse important content with AI assistance
+-   **AI Copilot Integration**: 
+    - **Marking Copilot**: Real-time AI assistance during grading
+    - **Content Creation Copilot**: AI-powered lesson planning and content development
+    - **Streaming responses** for immediate feedback
+-   **Intelligent Interface**: Resizable, minimizable, and adaptive UI elements
+-   **Progress Tracking**: Monitor class and individual performance with AI insights
 
 ## Next Steps
 
 Now that you have the basics down:
 
-1. **Explore AI Features**: Check out the Copilot for AI-powered teaching assistance
-2. **Build Your Resource Library**: Upload reference materials in the Resources section
-3. **Customize Your Grading**: Develop your snippet categories and feedback patterns
-4. **Review Analytics**: Use Progress Tracker to understand class performance
+1. **Master AI Features**: 
+   - Use the **marking copilot** for efficient grading assistance
+   - Try the **create content copilot** for lesson planning
+   - Learn to toggle AI suggestions on/off based on your needs
+2. **Optimize Your Interface**:
+   - Adjust column sizes for your preferred workflow
+   - Experiment with minimizable chat interfaces
+   - Customize your snippet and tagging approach
+3. **Build Your Resource Library**: Upload reference materials in the Resources section
+4. **Develop Grading Efficiency**: 
+   - Create consistent snippet categories
+   - Use AI feedback suggestions to speed up grading
+   - Leverage streaming responses for real-time assistance
+5. **Review Analytics**: Use Progress Tracker to understand class performance with AI insights
 
 ## Quick Troubleshooting
 
