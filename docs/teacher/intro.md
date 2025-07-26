@@ -13,6 +13,7 @@ Ren is an marking copilot that revolutionizes how teachers interact with student
 ### **AI-Powered Grading**
 
 -   Smart grading suggestions based on content analysis, your past markings, answer scheme
+-   The more you use our software to mark, the more the copilot learns about your style and is able to provide better suggestions
 -   Create your own snippet with simple click and drag, adding tags and comments
 -   Intelligent autocomplete based on your past comments
 -   A chat assistant that understands your students' work
@@ -30,6 +31,45 @@ Ren is an marking copilot that revolutionizes how teachers interact with student
   <source src="/vids/view-submission.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
+
+### **Snippet Bank**
+
+-   Build a growing bank of snippets. Feedback no longer lives in isolation but become part of a rich, searchable library
+-   Quickly find the exact snippet you need with our powerful filtering tool, which links you directly to the exact section in the students work
+
+<video width="100%" controls>
+  <source src="/vids/snippets-edited.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+### **Assistant**
+
+-   Chat and quickly gain insights about your student work with our assistant mode
+-   Chat and interact with your document
+-   Multiple integrations including chatting with your created content, student snippets and many more to come
+
+<video width="100%" controls>
+  <source src="/vids/assistant.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+### **Agent**
+
+-   Enhance your lesson planning workflow with our AI Agents that can browse your documents, review student work, search the web, and edit your content
+-   All sources are backlinked, allowing you to easy access them
+
+<video width="100%" controls>
+  <source src="/vids/agent-edited.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+### **Student Review**
+
+-   Student gets analytics about their progress. We flag out common mistakes, new mistakes etc. and provide them with an intuitive interface to review them, backlinked to the actual sources
+
+### **Class Analytics**
+
+-   Quickly identify trends and insights, including the grade progression of your students, the type of mistakes they are making, and many more
 
 ## Ready to Transform Your Teaching?
 
