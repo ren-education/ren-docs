@@ -85,12 +85,6 @@ const config: Config = {
                     position: "left",
                     label: "Teacher Tutorial",
                 },
-                {
-                    type: "docSidebar",
-                    sidebarId: "studentSidebar",
-                    position: "left",
-                    label: "Student Tutorial",
-                },
             ],
         },
         footer: {
