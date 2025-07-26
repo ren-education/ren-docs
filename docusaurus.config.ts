@@ -114,7 +114,15 @@ const config: Config = {
                     items: [
                         {
                             label: "Email",
-                            href: "mailto:euenwong@gmail.com",
+                            href: "mailto:rencontact@gmail.com",
+                        },
+                        {
+                            label: "LinkedIn",
+                            href: "https://www.linkedin.com/company/ren-learning",
+                        },
+                        {
+                            label: "Landing Page",
+                            href: "https://landing.renlearn.app",
                         },
                     ],
                 },
