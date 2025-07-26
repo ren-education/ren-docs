@@ -18,29 +18,7 @@ const sidebars: SidebarsConfig = {
         {
             type: "category",
             label: "Getting Started",
-            items: [
-                "teacher/intro",
-                "teacher/quick-start",
-            ],
-        },
-        {
-            type: "category", 
-            label: "Core Features",
-            items: [
-                "teacher/class-management",
-                "teacher/assignment-workflow", 
-                "teacher/pdf-processing",
-                "teacher/marking",
-            ],
-        },
-        {
-            type: "category",
-            label: "AI & Advanced Tools", 
-            items: [
-                "teacher/ai-copilot",
-                "teacher/interface-guide",
-                "teacher/advanced-features",
-            ],
+            items: ["teacher/intro", "teacher/quick-start"],
         },
     ],
 
@@ -49,27 +27,17 @@ const sidebars: SidebarsConfig = {
         {
             type: "category",
             label: "Getting Started",
-            items: [
-                "student/intro",
-                "student/getting-started",
-            ],
+            items: ["student/intro", "student/getting-started"],
         },
         {
             type: "category",
             label: "Using Ren",
-            items: [
-                "student/student-interface",
-                "student/assignments-submissions",
-                "student/feedback-grades",
-            ],
+            items: ["student/student-interface", "student/assignments-submissions", "student/feedback-grades"],
         },
         {
             type: "category",
             label: "AI & Support",
-            items: [
-                "student/ai-assistant",
-                "student/tips-troubleshooting",
-            ],
+            items: ["student/ai-assistant", "student/tips-troubleshooting"],
         },
     ],
 };

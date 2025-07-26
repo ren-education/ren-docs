@@ -16,146 +16,51 @@ By the end of this guide, you'll know how to:
 -   Upload and process student submissions
 -   Use basic grading features
 
-## Step 1: Create Your First Class
+## Step 1: Create an account
 
-Classes are the foundation of your Ren workspace. Each class contains students, assignments, and all related materials.
+1. Go to [ren.](https://renlearn.app/) and sign up using your Google account
+2. Sign in with your Google account
+3. Contact the admin (the person who is onboarding you) for approval
+4. Once approved, you should be brought to the home page!
 
-1. **Navigate to Classes**: Click on "Classes" in the main sidebar
-2. **Create New Class**: Click the "Create Class" button
-3. **Enter Class Details**:
-    - **Class Name**: Use a descriptive name (e.g., "Grade 10 English", "AP Biology Period 3")
-    - **Subject**: Select or enter the subject area
-4. **Save**: Click "Create Class"
+## Step 2: Create your first class
 
-Your new class will immediately appear in your dashboard and sidebar navigation.
+1. On the sidebar, click on **Classes**
+2. On the top right, click on **Add New Class**
+3. Fill in the details and click on **Create Class**
+4. You should see a class card being created!
 
-## Step 2: Add Students to Your Class
+## Step 3: Add your students to your class
 
-1. Click on your class name in the sidebar
-2. Go to the "Students" tab
-3. Click "Add Student"
-4. Enter the student's name and email (optional)
-5. Click "Add"
+1. On the sidebar, click on **Students** under the class you just created
+2. On the top right, click on **Add Student**
+3. Fill in the name, the email can be left empty for now, but it will be required in the future if you want to allow your student to view their dashboard, click on **Add Student**
+4. You should see your student card being created! Repeat for all your students
 
-(Optional) Include the students' emails, and invite them to access the students' dashboard:
+## Step 4: Create your first assignment:
 
-1. From the Students tab, click "Generate Invite Link"
-2. An email will automatically be sent to them with the instructions to join Ren
+1. On the sidebar, click on the **Assignments** under the class you just created
+2. On the top right, click on **Add New Assignment**
+3. Fill in the details and click on **Create Assignment**
+4. You should see an assignment class being created!
 
-💡 **Tip**: Each student gets a unique access token - they don't need separate accounts!
+## Step 5: Mark your first student work
 
-## Step 3: Create Your First Assignment
+1. Click into the assignment you just created. You can upload your students' work under **Submission Status**
 
-Assignments in Ren are designed around PDF submissions and AI-powered analysis.
+> _NOTE_: once you have configured your students' email and sent the invitations. They could upload their submissions through their dashboard
 
-1. **Navigate to Assignments**: From your class, click the "Assignments" tab
-2. **Create Assignment**: Click "Create Assignment"
-3. **Fill Assignment Details**:
-    - **Title**: Give your assignment a clear, descriptive name
-    - **Description**: Add instructions or context for students
-    - **Due Date**: Set the deadline
-    - **Instructions**: Any specific requirements
-4. **Save**: Click "Create Assignment"
+1. Select a file or drag and drop a file (pdf). It can accept both typed and handwritten work
+2. Once it is uploaded, it will appear under **Pending Marking**
+3. Click on the student name to navigate to the mark page
+4. You will see your student's work on the screen. Simply click and drag to draw boxes on the student's work
+5. A snippet note will be created on the right. On the top, you can add 0 or more tags (eg. "needs-substantiation"). Adding tags help the copilot extract better insights for you and your students. You can also add a comment for the section
+6. You can repeat this click and drag motion to mark your student work
+7. On top, there is your toolbar. Use it to navigate between pages
+8. Once you are done, scroll down and enter a grade
+9. You can click on **Save** to be able to continue marking in the future, or **Mark as Complete** to share it to your student on their dashboard
 
-## Step 4: Handle Student Submissions
+## BONUS: Utilise your AI Copilot
 
-### Upload Submissions (Teacher Upload)
-
-If students submit work offline or you're uploading scanned work:
-
-1. Go to your assignment dashboard
-2. Find the student's row
-3. Click the upload icon next to their name
-4. Select and upload their PDF file
-5. Status changes from "Pending Submission" to "Processing" then "Ready for Grading"
-
-### Student Portal Submissions
-
-Students can submit directly through their unique portal link:
-
--   After you sent the invitations, they should receive a link to the student dashboard
--   They can view assignments and upload their own submissions
--   You'll be notified when new submissions arrive
-
-## Step 5: Your First Grading Session
-
-Once submissions are processed, you can begin grading with enhanced AI-powered features:
-
-1. **Access Submission**: Click on a student's name in the assignment
-2. **Review the PDF**: The submission loads in an interactive PDF viewer with resizable columns
-3. **Toggle AI Overlay**: Use the AI overlay toggle to show/hide AI assistance on the submission
-4. **Create Snippets**: Click and drag to highlight important sections
-5. **Use AI Copilot**: 
-    - Click the chat icon to open the marking copilot
-    - Add snippets to chat for AI analysis and feedback suggestions
-    - Get real-time streaming responses for grading assistance
-6. **Add Feedback**:
-    - Tag snippets with categories (e.g., "grammar-error", "good-analysis")
-    - Add detailed comments, enhanced by AI suggestions
-    - Remove snippets with the X button if needed
-7. **Assign Grade**: Enter the numerical grade (with AI recommendations if desired)
-8. **Save**: Click "Save" to finalize
-
-### New Marking Interface Features
-- **Resizable columns** for optimal viewing
-- **Minimizable chat interface** that adapts to your workflow
-- **Dynamic sidebar** that adjusts when chat is opened
-- **Snippet preview rendering** in AI chat for visual context
-
-## Understanding Your Workflow
-
-### The Ren Sidebar Navigation
-
-Your sidebar dynamically updates based on your classes:
-
-```
-📚 Classes
-📝 Create Content
-📁 Resources
-🤖 Copilot
-
-[Your Class Name]
-├── 📋 Assignments
-├── ✂️ Snippets
-├── 📈 Progress Tracker
-└── 👥 Students
-```
-
-### Key Features You'll Use Daily
-
--   **Enhanced PDF Processing**: Automatic text extraction, OCR, and page-by-page analysis
--   **Smart Snippet Creation**: Highlight and reuse important content with AI assistance
--   **AI Copilot Integration**: 
-    - **Marking Copilot**: Real-time AI assistance during grading
-    - **Content Creation Copilot**: AI-powered lesson planning and content development
-    - **Streaming responses** for immediate feedback
--   **Intelligent Interface**: Resizable, minimizable, and adaptive UI elements
--   **Progress Tracking**: Monitor class and individual performance with AI insights
-
-## Next Steps
-
-Now that you have the basics down:
-
-1. **Master AI Features**: 
-   - Use the **marking copilot** for efficient grading assistance
-   - Try the **create content copilot** for lesson planning
-   - Learn to toggle AI suggestions on/off based on your needs
-2. **Optimize Your Interface**:
-   - Adjust column sizes for your preferred workflow
-   - Experiment with minimizable chat interfaces
-   - Customize your snippet and tagging approach
-3. **Build Your Resource Library**: Upload reference materials in the Resources section
-4. **Develop Grading Efficiency**: 
-   - Create consistent snippet categories
-   - Use AI feedback suggestions to speed up grading
-   - Leverage streaming responses for real-time assistance
-5. **Review Analytics**: Use Progress Tracker to understand class performance with AI insights
-
-## Quick Troubleshooting
-
-**Upload Issues**: Ensure PDFs are under 50MB and not password-protected
-**Missing Students**: Check that invite links were shared correctly
-**Processing Delays**: Large PDFs may take a few minutes to process
-**Can't Find Assignment**: Check that you're in the correct class section
-
-Ready to dive deeper? Continue to our Core Features guide for comprehensive platform capabilities.
+1. You can wait a while for the work to be processed. After which, you will be able to see AI suggestions. Use your cursor to move around the page and the suggestions will appear. You can click on any of them to add them as a snippet, which you can then edit
+2. On top of the snippet, you can click on the **Add to Chat** icon to interact with the chat assistant. The chat assistant would have context on the snippet you added, and the student's work
