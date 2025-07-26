@@ -5,14 +5,15 @@ import styles from "./styles.module.css";
 
 type FeatureItem = {
     title: string;
-    Svg: React.ComponentType<React.ComponentProps<"svg">>;
+    Svg?: React.ComponentType<React.ComponentProps<"svg">>;
+    image?: string;
     description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
     {
         title: "Teacher-Centric",
-        Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+        image: require("@site/static/img/one.png").default,
         description: (
             <>
                 With snippet-based marking, teachers tag and comment on student work. AI will learn from their marking
@@ -22,12 +23,12 @@ const FeatureList: FeatureItem[] = [
     },
     {
         title: "Evidence-Based Insights",
-        Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+        image: require("@site/static/img/two.png").default,
         description: <>Get structured analytics on student performance, identify patterns across groups.</>,
     },
     {
         title: "Personalised Learning",
-        Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+        image: require("@site/static/img/three.png").default,
         description: (
             <>
                 With the help of AI, make connections with their past work and your resources. Share personalised
@@ -37,13 +38,14 @@ const FeatureList: FeatureItem[] = [
     },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, Svg, image, description }: FeatureItem) {
     return (
-        <div className={clsx("col col--4")}>
+        <div className={clsx("col col--4", styles.featureColumn)}>
             <div className="text--center">
-                <Svg className={styles.featureSvg} role="img" />
+                {Svg && <Svg className={styles.featureSvg} role="img" />}
+                {image && <img src={image} alt={title} className={styles.featureImage} />}
             </div>
-            <div className="text--center padding-horiz--md">
+            <div className={styles.featureContent}>
                 <Heading as="h3">{title}</Heading>
                 <p>{description}</p>
             </div>
@@ -56,7 +58,7 @@ function BackedBy() {
         <section className={styles.backedBy}>
             <div className="container">
                 <div className="text--center">
-                    <Heading as="h3">Backed by</Heading>
+                    <Heading as="h3">Supported by</Heading>
                     <div className={styles.backedByImages}>
                         <img
                             src={require("@site/static/img/block71.png").default}
@@ -68,6 +70,13 @@ function BackedBy() {
                         <img
                             src={require("@site/static/img/nus-computing.png").default}
                             alt="NUS Computing"
+                            width={200}
+                            height={200}
+                            className={styles.backedByImage}
+                        />
+                        <img
+                            src={require("@site/static/img/smu-big.png").default}
+                            alt="SMU BIG"
                             width={200}
                             height={200}
                             className={styles.backedByImage}

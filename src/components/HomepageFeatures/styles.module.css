@@ -10,6 +10,25 @@
     width: 200px;
 }
 
+.featureImage {
+    height: 200px;
+    max-width: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+.featureColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.featureContent {
+    max-width: 300px;
+    padding: 0 1rem;
+}
+
 .backedBy {
     display: flex;
     align-items: center;
